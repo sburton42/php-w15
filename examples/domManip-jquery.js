@@ -20,3 +20,16 @@ function hideDiv() {
 	//$("#div1").hide();
 	$("#div1").fadeOut(2000);
 }
+
+function hitServer() {
+	var inputText = $("#txtInput").val();
+
+	$.ajax({
+		url: "echo.php",
+		data: {text: inputText},
+		success: function(data) {
+			$("#div1").html(data);
+		}
+
+	});
+}
