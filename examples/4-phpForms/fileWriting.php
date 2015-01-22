@@ -7,6 +7,6 @@ fwrite($file, $txt);
 
 fclose($file);
 
-echo "Wrote to file..."
+echo "Wrote to file (2)..."
 
 ?>
