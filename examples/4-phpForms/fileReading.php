@@ -3,7 +3,7 @@
 	<div>
 <?php
 
-$file = fopen("file.txt", "r") or die("Unable to open file!");
+$file = fopen("file2.txt", "r") or die("Unable to open file!");
 
 while ($line = fgets($file))
 {
