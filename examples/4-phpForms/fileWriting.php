@@ -7,4 +7,6 @@ fwrite($file, $txt);
 
 fclose($file);
 
+echo "Wrote to file..."
+
 ?>
