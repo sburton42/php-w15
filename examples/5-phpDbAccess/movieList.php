@@ -7,7 +7,7 @@
 
 try
 {
-	$query = "Harrison Ford";
+	$query = "Fisher";
 
 	$user = "phpbob";
 	$pass = "cs313pass";
